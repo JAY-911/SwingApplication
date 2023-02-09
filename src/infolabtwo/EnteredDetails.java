@@ -70,6 +70,8 @@ public class EnteredDetails extends javax.swing.JPanel {
         countryLabel = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(51, 255, 204));
+
         titleLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         titleLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleLabel.setText("Information Entered");
@@ -188,7 +190,7 @@ public class EnteredDetails extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(198, 198, 198)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(1640, 1640, 1640))
+                .addGap(1712, 1712, 1712))
         );
     }// </editor-fold>//GEN-END:initComponents
 
